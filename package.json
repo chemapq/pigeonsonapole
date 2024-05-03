@@ -3,10 +3,20 @@
   "version": "1.0.0",
   "description": "pigeons on a electricity pole",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "standard": "^17.1.0",
+    "tmi.js": "^1.8.5",
+    "websocket": "^1.0.34"
+  }
 }
