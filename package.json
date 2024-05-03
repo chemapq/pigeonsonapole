@@ -1,22 +1,39 @@
 {
-  "name": "pigeonsonapole",
-  "version": "1.0.0",
-  "description": "pigeons on a electricity pole",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "name": "pigeon-poles",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "dotenv": "^16.4.5",
-    "nodemon": "^3.1.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "standard": "^17.1.0",
+    "react-scripts": "5.0.1",
     "tmi.js": "^1.8.5",
-    "websocket": "^1.0.34"
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
